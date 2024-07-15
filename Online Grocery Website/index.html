@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grocery Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Grocery Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to our Online Grocery Store</h2>
+            <p>Shop fresh and quality groceries online from the comfort of your home.</p>
+        </section>
+        <h2>Our Products</h2>
+        <section id="products">
+            
+            <!-- Products go here -->
+            <div class="product">
+                <img src="https://cdnprod.mafretailproxy.com/sys-master-root/h7d/hd4/14257581752350/230871_main.jpg_480Wx480H" alt="Apple">
+                <h3>Apple</h3>
+                <p>Price: $1.20 each</p>
+                <div class="product-buttons">
+                    <button class="buy-btn">Buy</button>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/6372/202ebeef-6657-44ec-8fff-28352e1f5999.jpg" alt="Banana">
+                <h3>Banana</h3>
+                <p>Price: $0.80 each</p>
+                <div class="product-buttons">
+                    <button class="buy-btn">Buy</button>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Repeat similar blocks for other products (total 20) -->
+            <div class="product">
+                <img src="https://www.observerbd.com/2017/04/20/1492696528.jpg" alt="Orange">
+                <h3>Orange</h3>
+                <p>Price: $1.50 each</p>
+                <div class="product-buttons">
+                    <button class="buy-btn">Buy</button>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://blueberry.org/wp-content/uploads/2021/04/Fresh-Highbush-Blueberries-in-Heart-Dish-edited.jpg" alt="Orange">
+                <h3>Blueberries</h3>
+                <p>Price: $1.50 each</p>
+                <div class="product-buttons">
+                    <button class="buy-btn">Buy</button>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://farmtodoorstep.co/wp-content/uploads/2020/05/watermelon.jpg" alt="Orange">
+                <h3>Watermelon</h3>
+                <p>Price: $1.50 each</p>
+                <div class="product-buttons">
+                    <button class="buy-btn">Buy</button>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Add remaining products similarly -->
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Grocery Store</p>
+    </footer>
+</body>
+</html>
